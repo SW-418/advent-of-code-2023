@@ -1,0 +1,7 @@
+apply plugin: 'java'
+
+repositories { 
+    mavenCentral() 
+}
+
+compileOnly("org.projectlombok:lombok:0.11.0")
