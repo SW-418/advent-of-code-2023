@@ -20,7 +20,6 @@ public class Day1 {
 
     private static int calculatePartOne(final File file) {
         var total = 0;
-
         try (var myReader = new Scanner(file)) {
             while (myReader.hasNext()) {
                 var current = myReader.next();
@@ -39,6 +38,7 @@ public class Day1 {
         } catch (FileNotFoundException e) {
             throw new RuntimeException(e);
         }
+
 
         return total;
     }
