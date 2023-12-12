@@ -1,7 +1,8 @@
-package main.java.Day2;
+package Day2;
 
 import lombok.Getter;
 
+@Getter
 public class Game {
     public final Integer GameId;
     public final Integer Blue;
